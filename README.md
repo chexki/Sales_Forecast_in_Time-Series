@@ -9,10 +9,10 @@ Average Accuracy for a recent quarter :  99 %
 
 # Model : ARIMA
 
-ARIMA(0, 0, 0)x(0, 0, 0, 12)12 - AIC:1677.0924465918222
-ARIMA(0, 0, 0)x(0, 0, 1, 12)12 - AIC:1311.0415701122588
-ARIMA(0, 0, 0)x(0, 1, 0, 12)12 - AIC:1293.737039032062
-ARIMA(0, 0, 0)x(0, 1, 1, 12)12 - AIC:2854.896533031021
+ARIMA(0, 0, 0)x(0, 0, 0, 12)12 - AIC:1677.092
+ARIMA(0, 0, 0)x(0, 0, 1, 12)12 - AIC:1311.0415
+ARIMA(0, 0, 0)x(0, 1, 0, 12)12 - AIC:1293.73703
+ARIMA(0, 0, 0)x(0, 1, 1, 12)12 - AIC:2854.89653
 ARIMA(0, 0, 0)x(1, 0, 0, 12)12 - AIC:1323.7490590213258
 ARIMA(0, 0, 0)x(1, 0, 1, 12)12 - AIC:1302.3315713349957
 ARIMA(0, 0, 0)x(1, 1, 0, 12)12 - AIC:965.3940867115441
@@ -73,6 +73,7 @@ ARIMA(1, 1, 1)x(1, 0, 0, 12)12 - AIC:1238.8445188545154
 ARIMA(1, 1, 1)x(1, 0, 1, 12)12 - AIC:1212.01648264209
 ARIMA(1, 1, 1)x(1, 1, 0, 12)12 - AIC:889.2642058876085
 ARIMA(1, 1, 1)x(1, 1, 1, 12)12 - AIC:2677.5626970150524
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 # Model : SARIMAX ( With Best Parameters (Such as -  Minimum AIC)
@@ -93,8 +94,10 @@ sigma2      1.068e+12   2.58e-13   4.14e+24      0.000    1.07e+12    1.07e+12
 The Mean Squared Error of our forecasts is : 218951761130.504
 The Root Mean Squared Error of our forecasts is : 467922.82
 
-
-# Month //	Actual Sales	// Predicted Sales	// Percent precision	 // Product
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Average Quaterly Accuracy :
+ 
+ Month //	Actual Sales	// Predicted Sales	// Percent precision	 // Product
 
    *	            *	              *              176.55	                 *
    *	            *	              *	             114.71	                 *
