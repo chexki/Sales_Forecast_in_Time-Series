@@ -1,12 +1,8 @@
 # Sales_Forecast_in_Time-Series
 Forecasting sales using ML Time Series techniques on the past data.
 
-
-Considered Parameters :
- 
-Contract Period, Discounts Offered, Types of Businesses, 
-
-
+Considered Parameters : Contract Period, Discounts Offered, Types of Businesses. 
+Used Models : ARIMA, SARIMAX
 
 Model Results :
 Average Accuracy for a recent quarter :  99 % 
@@ -79,7 +75,7 @@ ARIMA(1, 1, 1)x(1, 0, 1, 12)12 - AIC:1212.01648264209
 ARIMA(1, 1, 1)x(1, 1, 0, 12)12 - AIC:889.2642058876085
 ARIMA(1, 1, 1)x(1, 1, 1, 12)12 - AIC:2677.5626970150524
 
-==============================================================================
+
 Model : SARIMAX ( With Best Parameters (Such as -  Minimum AIC)
 ==============================================================================
 
@@ -99,13 +95,13 @@ sigma2      1.068e+12   2.58e-13   4.14e+24      0.000    1.07e+12    1.07e+12
 The Mean Squared Error of our forecasts is : 218951761130.504
 The Root Mean Squared Error of our forecasts is : 467922.82
 
-==============================================================================
+
 Month //	Actual Sales	// Predicted Sales	// Percent precision	 // Product
 ==============================================================================
 *	            *	              *             	176.55	                 *
 *	            *	              *	             114.71	                 *
 *	            *	              *	             100.02	                 *
 *	            *	              *	             22.12	                  *
-==============================================================================
+
 Average Quaterly Accuracy 			                103.35	%
 ==============================================================================
