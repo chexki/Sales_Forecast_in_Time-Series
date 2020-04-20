@@ -105,5 +105,7 @@ The Root Mean Squared Error of our forecasts is : 467922.82
    *	            *	              *	             100.02	                 *
    *	            *	              *	             22.12	                 *
 
-Average Quaterly Accuracy 			                103.35	%
+Average Quaterly Accuracy 			           103.35	%
+
+Where, % Precision = Actual Sales / Predicted Sales
 ==============================================================================
