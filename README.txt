@@ -1,8 +1,9 @@
 # Sales_Forecast_in_Time-Series
-Forecasting sales using ML Time Series techniques on the past data.
+Forecasting sales using ML Univariate and Multivariate Time Series techniques on the past data.
 
 Considered Parameters : Contract Period, Discounts Offered, Types of Businesses. 
-Used Models : ARIMA, SARIMAX
+Used Models : 1. ARIMA (Autoregressive Integrated Moving Average), 
+              2. SARIMAX (Seasonal Autoregressive Integrated Moving Average )
 
 Model Results :
 Average Accuracy for a recent quarter :  99 % 
